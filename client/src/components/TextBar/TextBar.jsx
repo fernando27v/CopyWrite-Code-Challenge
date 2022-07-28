@@ -31,6 +31,7 @@ function TextBar() {
       <button
         className="btn btn-primary"
         type="submit"
+        aria-label="Send"
         style={{ padding: "0 25px" }}
       >
         Send

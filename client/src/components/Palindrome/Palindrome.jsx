@@ -11,6 +11,7 @@ function Palindrome({ isPalindrome }) {
           fill="currentColor"
           className="bi bi-check-circle-fill"
           viewBox="0 0 16 16"
+          aria-label="Palindrome"
         >
           <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
         </svg>
@@ -22,6 +23,7 @@ function Palindrome({ isPalindrome }) {
           fill="currentColor"
           className="bi bi-x-lg"
           viewBox="0 0 16 16"
+          aria-label="Not Palindrome"
         >
           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
         </svg>
